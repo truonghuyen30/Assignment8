@@ -1,0 +1,15 @@
+package Lec11_Encapsulation.Final.Variable;
+
+public class Bike {
+
+    final int speedlimit = 90;   
+
+    void run() {
+        System.out.println("Speed limit: " + speedlimit);
+    }
+
+    public static void main(String[] args) {
+        Bike obj = new Bike();
+        obj.run();
+    }
+}
