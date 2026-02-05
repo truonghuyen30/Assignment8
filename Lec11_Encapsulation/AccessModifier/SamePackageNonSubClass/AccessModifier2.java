@@ -4,7 +4,7 @@ public class AccessModifier2 {
 
     public static void main(String[] args) {
         AccessModifier1 object = new AccessModifier1();
-        // System.out.println(object.pvt); ❌ private → không truy cập trực tiếp
+        // System.out.println(object.pvt);  private → không truy cập trực tiếp
 
         // Truy cập private thông qua getter
         System.out.println(object.getPvt());
@@ -14,3 +14,4 @@ public class AccessModifier2 {
     }
 
 }
+
