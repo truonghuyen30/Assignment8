@@ -1,13 +1,22 @@
 package Lec11_Encapsulation.Final.Class;
 
-public final class Bike {
+public class Bike {
 
     void run() {
         System.out.println("running");
     }
+}
+
+class Honda extends Bike {
+
+    @Override
+    void run() {
+        System.out.println("running safely with 100kmph");
+    }
 
     public static void main(String[] args) {
-        Bike bike = new Bike();
-        bike.run();
+        Honda honda = new Honda();
+        honda.run();
     }
 }
+
